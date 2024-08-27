@@ -1,11 +1,11 @@
 DESTDIR=
-default: pack-test
+default: packit
 
-mytool:
+packit:
     ...
 
 install:
-    install bin/packtest $(DESTDIR)/usr/bin
+    install bin/packit $(DESTDIR)/usr/bin
 
 clean:
-    rm -f bin/pack-test
+    rm -f bin/packit
